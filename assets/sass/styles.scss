@@ -1,0 +1,181 @@
+$primaryColor: #709b1d;
+$secColor: #f3f3f3;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body
+{
+	margin: 0px;
+	padding: 0%;
+	font-family: Open Sans;
+
+	&,& *{
+        transition: all 0.4s ease;
+	}
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+}
+
+header
+{
+	display: block;
+	#row1
+	{
+		min-height: 40px;
+		background: $primaryColor;
+		padding-bottom: 5px;
+		.links{
+			display: inline-block;
+			color: white;
+			padding: 10px 10px;
+			height: 40px;
+			border-bottom-right-radius: 2px;
+			border-bottom-left-radius: 2px;
+			font-size: 14px;
+
+			&:hover,&:active{
+			background: #fff;
+			color: $primaryColor;
+
+		}
+		i
+		{
+			transition: 0s;
+		}
+
+		}
+
+	}
+
+    #row2
+    {
+    	min-height: 85px;
+
+    	nav{
+    		min-height: 0%;
+    		background: #fff;
+    		border-bottom: 0px;
+    		border-top: 0px;
+    		margin-top: 30px;
+    		margin-bottom: 0px;
+
+    		.nav {
+               a {
+                    color:$primaryColor;
+                    text-transform: uppercase;
+                 }
+            }
+            .navbar-brand{
+                height:auto;
+                padding-top:0px; padding-bottom:0px;
+            }
+
+
+
+    	}
+    }
+
+
+    #row3
+    {
+    	background: $secColor;
+    	min-height: 37px;
+
+
+    	.nav{
+    		li{
+    			padding-left: 0 15px;
+    			a{
+    				color: $primaryColor;
+    				text-transform: uppercase;
+    				&:active, &:hover{
+    					background: $primaryColor;
+    					color: #fff;
+
+    				}
+    			}
+    		}
+
+
+
+
+    	}
+    	form{
+                input, button{
+                    border-radius:0px;
+                }
+            }
+    }
+
+
+
+
+}
+
+
+
+
+@media(max-width: 786px){
+
+
+header
+{
+	#row1
+	{
+		.links
+		{
+			font-size: 11px;
+			padding: 10px 5px;
+			height: auto;
+		}
+		.currencyDropdown{
+                    width:100%;
+                    text-align: center;
+                    a, .dropdown-menu{
+                        width:100%;
+                    }
+                    .dropdown-menu{
+                        border-top:0px;
+                        border-radius:0px;
+                    }
+                
+                }
+		
+		
+	}
+
+    #row3{
+            .navbar-toggle{
+                float: none;
+                margin-right: auto;
+                margin-left: auto;
+                width: 100px;
+                display: block;
+                color: #709b1d;
+                font-weight: bold;
+            }
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
