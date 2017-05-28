@@ -81,6 +81,23 @@ header {
   .slider .carousel-indicators li.active {
     background: #4b6e08; }
 
+#siteInfo {
+  padding-top: 10px;
+  background: #709b1d; }
+  #siteInfo .block {
+    background-color: #4b6e08;
+    display: block;
+    margin-bottom: 10px;
+    padding: 20px; }
+    #siteInfo .block h4, #siteInfo .block .icon {
+      color: #fff; }
+    #siteInfo .block .icon {
+      float: left;
+      font-size: 35px;
+      margin-right: 10px; }
+    #siteInfo .block h4, #siteInfo .block h5 {
+      margin: 0px; }
+
 @media (max-width: 786px) {
   header #row1 .links {
     font-size: 11px;
