@@ -25,7 +25,7 @@ header {
       header #row1 .links:hover, header #row1 .links:active {
         background: #fff;
         color: #709b1d; }
-      header #row1 .links i {
+      header #row1 .links i, header #row1 .links span {
         transition: 0s; }
   header #row2 {
     min-height: 85px; }
@@ -46,6 +46,8 @@ header {
   header #row3 {
     background: #f3f3f3;
     min-height: 37px; }
+    header #row3 .navbar {
+      margin-bottom: 0px; }
     header #row3 .nav li {
       padding-left: 0 15px; }
       header #row3 .nav li a {
@@ -57,14 +59,35 @@ header {
     header #row3 form input, header #row3 form button {
       border-radius: 0px; }
 
+.slider .carousel-control.right, .slider .carousel-control.left {
+  background-image: none; }
+.slider .carousel-control .glyphicon-chevron-right, .slider .carousel-control .glyphicon-chevron-left {
+  height: auto;
+  width: auto; }
+.slider .carousel-control .glyphicon-chevron-right {
+  right: 6%; }
+.slider .carousel-control .glyphicon-chevron-left {
+  left: 6%; }
+.slider .carousel-inner .item img {
+  width: 100%;
+  margin: auto; }
+.slider .carousel-indicators li {
+  border: 0px;
+  border-radius: 0px;
+  background: #709b1d;
+  width: 22px;
+  height: 17px;
+  margin: 0px; }
+  .slider .carousel-indicators li.active {
+    background: #4b6e08; }
+
 @media (max-width: 786px) {
   header #row1 .links {
     font-size: 11px;
     padding: 10px 5px;
     height: auto; }
   header #row1 .currencyDropdown {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
     header #row1 .currencyDropdown a, header #row1 .currencyDropdown .dropdown-menu {
       width: 100%; }
     header #row1 .currencyDropdown .dropdown-menu {
@@ -77,6 +100,20 @@ header {
     width: 100px;
     display: block;
     color: #709b1d;
-    font-weight: bold; } }
+    font-weight: bold; }
+
+  /* end of header */
+  .slider .carousel-control .glyphicon-chevron-right {
+    right: 36%; }
+  .slider .carousel-control .glyphicon-chevron-left {
+    left: 36%; }
+  .slider .carousel-control .glyphicon-chevron-right, .slider .carousel-control .glyphicon-chevron-left {
+    width: 20px; }
+  .slider .carousel-indicators {
+    margin-bottom: 0px;
+    bottom: -0px; }
+    .slider .carousel-indicators li {
+      width: 15px;
+      height: 12px; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,8 @@
 $primaryColor: #709b1d;
 $secColor: #f3f3f3;
+$primary_dark_color: #4b6e08;
+$light_primary_color: #83b228;
+$dark_text_color: #434343;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -41,7 +44,7 @@ header
 			color: $primaryColor;
 
 		}
-		i
+		i,span
 		{
 			transition: 0s;
 		}
@@ -70,7 +73,8 @@ header
             }
             .navbar-brand{
                 height:auto;
-                padding-top:0px; padding-bottom:0px;
+                padding-top:0px; 
+                padding-bottom:0px;
             }
 
 
@@ -83,6 +87,11 @@ header
     {
     	background: $secColor;
     	min-height: 37px;
+
+        .navbar
+        {
+            margin-bottom: 0px;
+        }
 
 
     	.nav{
@@ -116,6 +125,68 @@ header
 }
 
 
+.slider
+{
+    .carousel-control{
+        &.right,&.left{
+            background-image: none;
+        }
+        .glyphicon-chevron-right,.glyphicon-chevron-left
+        {
+            height: auto;
+            width: auto;
+        }
+
+        .glyphicon-chevron-right
+        {
+            right: 6%;
+        }
+        .glyphicon-chevron-left
+        {
+            left: 6%;
+        }
+
+
+    }
+    .carousel-inner
+    {
+        .item img{
+            width: 100%;
+            margin: auto;
+        }
+        
+    }
+
+    .carousel-indicators li
+    {
+        border: 0px;
+        border-radius: 0px;
+        background: $primaryColor;
+        width: 22px;
+        height: 17px;
+        margin: 0px;
+
+        &.active{
+            background: $primary_dark_color;
+        }
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 786px){
@@ -133,7 +204,7 @@ header
 		}
 		.currencyDropdown{
                     width:100%;
-                    text-align: center;
+
                     a, .dropdown-menu{
                         width:100%;
                     }
@@ -159,12 +230,51 @@ header
             }
         }
 
-}
+
+
+
+         
+
+}/* end of header */
 
 
 
 
+.slider{
 
+        .carousel-control
+        {
+
+           
+
+            .glyphicon-chevron-right{
+                right:36%;
+            }
+            .glyphicon-chevron-left{
+                left:36%;
+            }
+            .glyphicon-chevron-right, .glyphicon-chevron-left{
+                width:20px;
+            }
+            
+
+            
+        } 
+
+
+        .carousel-indicators
+        {
+            margin-bottom:0px;
+            bottom:-0px;
+
+
+            li {
+                width:15px;
+                height:12px;
+            }
+        } 
+        
+    }
 
 
 
