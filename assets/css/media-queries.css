@@ -1,0 +1,39 @@
+@media (max-width: 786px) {
+  header #row1 .links {
+    font-size: 11px;
+    padding: 10px 5px;
+    height: auto; }
+  header #row1 .currencyDropdown {
+    width: 100%; }
+    header #row1 .currencyDropdown a, header #row1 .currencyDropdown .dropdown-menu {
+      width: 100%; }
+    header #row1 .currencyDropdown .dropdown-menu {
+      border-top: 0px;
+      border-radius: 0px; }
+  header #row3 .navbar-toggle {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    display: block;
+    color: #709b1d;
+    font-weight: bold; }
+
+  /* end of header */
+  .slider .carousel-control .glyphicon-chevron-right {
+    right: 36%; }
+  .slider .carousel-control .glyphicon-chevron-left {
+    left: 36%; }
+  .slider .carousel-control .glyphicon-chevron-right, .slider .carousel-control .glyphicon-chevron-left {
+    width: 20px; }
+  .slider .carousel-indicators {
+    margin-bottom: 0px;
+    bottom: -0px; }
+    .slider .carousel-indicators li {
+      width: 15px;
+      height: 12px; }
+
+  /*end of slider*/ }
+/*end of media */
+
+/*# sourceMappingURL=media-queries.css.map */

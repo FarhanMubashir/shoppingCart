@@ -1,0 +1,103 @@
+@import "theme.scss";
+
+
+@media(max-width: 786px){
+
+
+header
+{
+	#row1
+	{
+		.links
+		{
+			font-size: 11px;
+			padding: 10px 5px;
+			height: auto;
+		}
+		.currencyDropdown{
+                    width:100%;
+
+                    a, .dropdown-menu{
+                        width:100%;
+                    }
+                    .dropdown-menu{
+                        border-top:0px;
+                        border-radius:0px;
+                    }
+                
+                }
+		
+		
+	}
+
+    #row3{
+            .navbar-toggle{
+                float: none;
+                margin-right: auto;
+                margin-left: auto;
+                width: 100px;
+                display: block;
+                color: #709b1d;
+                font-weight: bold;
+            }
+        }
+
+
+
+
+         
+
+}/* end of header */
+
+
+
+
+.slider{
+
+        .carousel-control
+        {
+
+           
+
+            .glyphicon-chevron-right{
+                right:36%;
+            }
+            .glyphicon-chevron-left{
+                left:36%;
+            }
+            .glyphicon-chevron-right, .glyphicon-chevron-left{
+                width:20px;
+            }
+            
+
+            
+        } 
+
+
+        .carousel-indicators
+        {
+            margin-bottom:0px;
+            bottom:-0px;
+
+
+            li {
+                width:15px;
+                height:12px;
+            }
+        } 
+        
+    }/*end of slider*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/*end of media */
