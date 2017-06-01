@@ -9,6 +9,89 @@ body {
     text-decoration: none; }
 
 /*end of body*/
+.btnStyle1 {
+  display: inline-block;
+  padding: 10px 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 3px 0px #ccc;
+  color: #709b1d;
+  background: #fff; }
+  .btnStyle1:hover {
+    box-shadow: none;
+    border: 1px solid white;
+    color: #fff;
+    background: #709b1d; }
+  .btnStyle1 i {
+    transition: 0s; }
+
+.rating {
+  text-align: center; }
+  .rating .star {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: bottom;
+    background-image: url(../images/starIcon.png); }
+    .rating .star.active, .rating .star:hover {
+      background-position: top; }
+
+.product {
+  background-color: #efefef;
+  padding: 2px;
+  text-align: center; }
+  .product .img {
+    background-position: center;
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px; }
+    .product .img .discountBadge {
+      position: absolute;
+      top: 20px;
+      left: 0px;
+      height: 50px;
+      width: 50px;
+      background: #709b1d;
+      color: #fff;
+      text-align: center;
+      line-height: 50px; }
+      .product .img .discountBadge .percent {
+        transform: rotate(45deg);
+        display: block; }
+    .product .img .title {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: -20px;
+      width: 90%;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      background-color: #FFF;
+      border: 1px solid #efefef;
+      color: #709b1d;
+      margin: auto; }
+  .product .price, .product .newPrice {
+    font-weight: bold;
+    font-size: 20px;
+    color: #696969;
+    margin-bottom: 16px;
+    display: inline-block; }
+    .product .price.discounted, .product .newPrice.discounted {
+      text-decoration: line-through; }
+  .product .newPrice {
+    color: #709b1d; }
+  .product .btn {
+    display: none; }
+  .product:hover {
+    background-color: #709b1d; }
+    .product:hover .btn {
+      display: inline-block; }
+    .product:hover .price, .product:hover .newPrice, .product:hover .rating {
+      display: none; }
+
 header {
   display: block;
   /*end  of row1*/
@@ -106,6 +189,77 @@ header {
       margin: 0px; }
 
 /*end of siteInfo */
+#tabbedSlider {
+  margin-top: 88px;
+  margin-bottom: 88px; }
+  #tabbedSlider .header {
+    background: #709b1d;
+    padding-top: 6px;
+    text-align: center; }
+    #tabbedSlider .header li {
+      float: none;
+      display: inline-block; }
+      #tabbedSlider .header li a {
+        color: white;
+        font-size: 18px; }
+      #tabbedSlider .header li:hover a, #tabbedSlider .header li.active a {
+        color: #709b1d; }
+
+.content {
+  margin-top: 30px; }
+  .content .carousel .carousel-control {
+    background: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -72px; }
+  .content .carousel .glyphicon {
+    margin: 0px;
+    top: 0px;
+    position: relative; }
+  .content .carousel.right .glyphicon {
+    left: 0px; }
+
+#subscribe {
+  padding: 50px 0px;
+  background-image: url("../images/subscribeBannerBg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff; }
+  #subscribe .title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  #subscribe p {
+    margin-bottom: 40px; }
+  #subscribe form input, #subscribe form button {
+    background-color: #dde7ca;
+    border-radius: 7px;
+    display: inline-block;
+    border: 3px solid #4b6e08;
+    margin-bottom: 5px; }
+  #subscribe form input {
+    padding: 10px;
+    font-size: 18px;
+    min-width: 320px;
+    color: #709b1d;
+    outline: none; }
+    #subscribe form input:focus {
+      background-color: #4b6e08;
+      color: #fff; }
+      #subscribe form input:focus::placeholder {
+        color: #fff; }
+  #subscribe form button {
+    width: auto;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 4px;
+    color: #4b6e08; }
+    #subscribe form button:hover {
+      background-color: #4b6e08;
+      color: #fff; }
+
 @media (max-width: 786px) {
   header #row1 .links {
     font-size: 11px;
