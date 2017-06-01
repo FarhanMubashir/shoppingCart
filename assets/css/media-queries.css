@@ -33,7 +33,11 @@
       width: 15px;
       height: 12px; }
 
-  /*end of slider*/ }
+  /*end of slider*/
+  #subscribe form input, #subscribe form button {
+    width: 100%; }
+  #subscribe form button {
+    margin-left: 0px; } }
 /*end of media */
 
 /*# sourceMappingURL=media-queries.css.map */

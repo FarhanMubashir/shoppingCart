@@ -42,14 +42,17 @@ header {
     header #row3 .navbar {
       margin-bottom: 0px; }
     header #row3 .nav li {
-      padding-left: 0 15px;
-      margin: 0px 15px; }
+      margin: 0px; }
       header #row3 .nav li a {
+        padding-left: 25px;
+        padding-right: 25px;
         color: #709b1d;
         text-transform: uppercase; }
         header #row3 .nav li a.active, header #row3 .nav li a:hover {
           background: #709b1d;
           color: #fff; }
+    header #row3 .navbar-collapse {
+      padding: 0px; }
     header #row3 form input, header #row3 form button {
       border-radius: 0px; }
 

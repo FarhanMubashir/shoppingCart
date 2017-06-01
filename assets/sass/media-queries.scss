@@ -88,7 +88,16 @@ header
         
     }/*end of slider*/
 
-
+#subscribe{
+	form{
+		input,button{
+			width: 100%;
+		}
+		button{
+			margin-left: 0px;
+		}
+	}
+}
 
 
 

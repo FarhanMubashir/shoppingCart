@@ -3,6 +3,10 @@ $fa-font-path: "../css/font-awesome/fonts/";
 @import "../css/font-awesome/scss/font-awesome";
 @import "theme.scss";
 
+$icon-font-path: "../frameworks/bootstrap-sass/assets/fonts/bootstrap/";
+$brand-primary:$primaryColor;
+@import "../frameworks/bootstrap-sass/assets/stylesheets/bootstrap";
+
 
 body
 {
