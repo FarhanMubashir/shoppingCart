@@ -49,8 +49,36 @@ header
 
 }/* end of header */
 
+#tabbedSlider
+{
+    .header
+    {
+        padding-top: 6px;
+        li{
 
+            a{
 
+                font-size: 10px;
+            }
+        }
+
+   } 
+}
+
+.content
+{
+    .carousel{
+        .carousel-control{
+            margin-top: -61px;
+            .glyphicon-chevron-right{
+                right: -15px;
+            }
+            .glyphicon-chevron-left{
+                left: -15px;
+            }
+        }
+    }
+}
 
 .slider{
 
