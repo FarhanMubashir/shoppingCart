@@ -82,6 +82,7 @@
                                 <li><a href="#">Your Wishlist goes here</a></li>
                                 </ul>
                             </li>
+                            <li><?php include("searchForm.php"); ?></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
@@ -111,16 +112,7 @@
                                 <li><a href="#">Software</a></li>
                             </ul>
 
-                            <form class="navbar-form navbar-right hidden-xs">
-                                
-                                <div class="form-group  pull-left">
-                                <input type="text" placeholder="Search your item..." class="form-control">
-                                </div>
-                                <button type="submit" class="btn btn-success">
-                                    <i class="glyphicon glyphicon-search"></i>
-
-                                </button>
-                            </form>
+                            
                         </div><!--/.nav-collapse -->
 
                         

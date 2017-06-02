@@ -48,6 +48,8 @@ include($base_dir."pages/products/products-slider.php");
 
 <?php include("includes/siteInfoBanner.php"); ?>
 
+
+
 <div id="tabbedSlider">
   <div class="container">
     <div class="header">

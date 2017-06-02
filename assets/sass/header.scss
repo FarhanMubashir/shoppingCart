@@ -58,6 +58,15 @@ header
 
 
     	}
+        form{
+                input, button{
+                    border-radius:0px;
+                }
+                button{
+                    padding: 7px 12px;
+                    font-size: 13px;
+                }
+            }
     }/*end of row2*/
 
 
@@ -95,11 +104,7 @@ header
         .navbar-collapse {
             padding: 0px;
         }
-    	form{
-                input, button{
-                    border-radius:0px;
-                }
-            }
+    	
     }/*end of row3*/
 
 

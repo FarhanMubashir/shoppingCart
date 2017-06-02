@@ -36,6 +36,11 @@ header {
         height: auto;
         padding-top: 0px;
         padding-bottom: 0px; }
+    header #row2 form input, header #row2 form button {
+      border-radius: 0px; }
+    header #row2 form button {
+      padding: 7px 12px;
+      font-size: 13px; }
   header #row3 {
     background: #f3f3f3;
     min-height: 37px; }
@@ -53,8 +58,6 @@ header {
           color: #fff; }
     header #row3 .navbar-collapse {
       padding: 0px; }
-    header #row3 form input, header #row3 form button {
-      border-radius: 0px; }
 
 /*end of header*/
 
