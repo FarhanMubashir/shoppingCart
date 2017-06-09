@@ -4,8 +4,8 @@
     margin-bottom: 30px; }
     #singleProductPage #gallerySlider .carousel-control {
       top: auto;
-      left: -45px;
-      bottom: 45px;
+      left: -16px;
+      bottom: 83px;
       width: 15%;
       opacity: .5;
       font-size: 20px;
@@ -14,7 +14,7 @@
       background-image: none !important;
       z-index: 111111; }
       #singleProductPage #gallerySlider .carousel-control.right {
-        right: -45px;
+        right: -16px;
         left: auto; }
     #singleProductPage #gallerySlider .carousel-indicators {
       position: relative;

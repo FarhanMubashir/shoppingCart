@@ -163,8 +163,8 @@ include($base_dir."includes/header.php");
 
                                     <hr>
 
-                                    <div class="price discounted">$50,231.00</div>&nbsp; &nbsp;
-                                    <div class="newPrice price">$10,452.00</div>
+                                    <div class="price1 discounted">$50,231.00</div>&nbsp; &nbsp;
+                                    <div class="newPrice1 price1">$10,452.00</div>
                                     <br>
 
                                     <a class="btn  btnStyle2">
