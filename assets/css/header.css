@@ -21,7 +21,7 @@ header {
       header #row1 .links i, header #row1 .links span {
         transition: 0s; }
   header #row2 {
-    min-height: 85px; }
+    margin-bottom: 30px; }
     header #row2 nav {
       min-height: 0%;
       background: #fff;
@@ -31,16 +31,24 @@ header {
       margin-bottom: 0px; }
       header #row2 nav .nav a {
         color: #709b1d;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        padding-top: 10px; }
       header #row2 nav .navbar-brand {
         height: auto;
         padding-top: 0px;
         padding-bottom: 0px; }
-    header #row2 form input, header #row2 form button {
-      border-radius: 0px; }
-    header #row2 form button {
-      padding: 7px 12px;
-      font-size: 13px; }
+    header #row2 form {
+      padding-left: 10px;
+      border: 0px; }
+      header #row2 form input, header #row2 form button {
+        border-radius: 0px;
+        box-shadow: none;
+        outline: 0px; }
+      header #row2 form button {
+        padding-top: 7px;
+        padding-bottom: 6px;
+        font-size: 13px; }
   header #row3 {
     background: #f3f3f3;
     min-height: 37px; }

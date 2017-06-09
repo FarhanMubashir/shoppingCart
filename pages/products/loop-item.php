@@ -12,7 +12,7 @@
 	</div>
      <?php endif; ?>
 		
-		<div class="title"><?php echo $product->title; ?></div><!--end of title-->
+		<div class="title"><a href="singleProduct.php"><?php echo $product->title; ?></a></div><!--end of title-->
 	</div><!--end of img-->
 	<div class="price <?php echo $product->discount>0?'discounted':'' ?>">
 		$<?php echo number_format($product->price); ?>

@@ -33,7 +33,7 @@ header
 
     #row2
     {
-    	min-height: 85px;
+    margin-bottom: 30px;
 
     	nav{
     		min-height: 0%;
@@ -47,6 +47,8 @@ header
                a {
                     color:$primaryColor;
                     text-transform: uppercase;
+                    padding-bottom: 10px;
+                    padding-top: 10px;
                  }
             }
             .navbar-brand{
@@ -59,11 +61,18 @@ header
 
     	}
         form{
+            padding-left: 10px;
+            border: 0px;
+
                 input, button{
                     border-radius:0px;
+                    box-shadow: none;
+                    outline: 0px;
                 }
                 button{
-                    padding: 7px 12px;
+                    padding-top: 7px;
+                    padding-bottom: 6px;
+
                     font-size: 13px;
                 }
             }

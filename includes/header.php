@@ -14,7 +14,7 @@
 <div class="container">
 	<div class="row">
 			<div class="col-sm-7">
-			<a class="links" href="#">
+			<a class="links" href="<?php echo $base_dir; ?>">
             <i class="glyphicon glyphicon-home"></i>
 			Home
 
@@ -64,7 +64,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="<?php echo $base_dir; ?>">
                             <img src="<?php echo $base_dir; ?>assets/images/logo.jpg" alt="logo's image" />
                         </a>
                     </div>
@@ -105,11 +105,11 @@
                         <div id="navbar1" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
                                 <li ><a class="active" href="#">Smartphone</a></li>
-                                <li><a href="#">Desktop</a></li>
-                                <li><a href="#">Laptop</a></li>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Networking</a></li>
-                                <li><a href="#">Software</a></li>
+                                <li><a href="<?php echo $base_dir."pages/products/"; ?>">Desktop</a></li>
+                                <li><a href="<?php echo $base_dir."pages/products/"; ?>">Laptop</a></li>
+                                <li><a href="<?php echo $base_dir."pages/products/"; ?>">Accessories</a></li>
+                                <li><a href="<?php echo $base_dir."pages/products/"; ?>">Networking</a></li>
+                                <li><a href="<?php echo $base_dir."pages/products/"; ?>">Software</a></li>
                             </ul>
 
                             
