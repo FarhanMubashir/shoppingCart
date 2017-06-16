@@ -7,10 +7,18 @@ $icon-font-path: "../frameworks/bootstrap-sass/assets/fonts/bootstrap/";
 $brand-primary:$primaryColor;
 @import "../frameworks/bootstrap-sass/assets/stylesheets/bootstrap";
 
-@mixin box-shadow($value){
+@mixin box-shadow($value...) {
     -moz-box-shadow: $value;
     -webkit-box-shadow: $value;
+    -o-box-shadow: $value;
     box-shadow: $value;
+}
+
+@mixin transition($value) {
+    -moz-transition: $value;
+    -webkit-transition: $value;
+    -o-transition: $value;
+    transition: $value;
 }
 
 body
@@ -129,6 +137,35 @@ img{
     margin-top: 50px;
 }
 
+.radioBtns {
+    input {
+        display: none
+    }
+    label {
+        &:before {
+            content: " ";
+            display: block;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 1px solid #adaeaa;
+            background-color: #FFF;
+            margin-right: 10px;
+            margin-top: 4px;
+            float: left;
+            @include box-shadow(inset 0 1px 4px -1px #FAF9F5,
+            inset 0 0 0 3px #FFF);
+            background-color: rgba($primaryColor, 0);
+            @include transition(all 0.4s ease-in-out);
+        }
+    }
+    input[type="radio"]:checked+label {
+        &:before {
+            background-color: rgba($primaryColor, 1);
+        }
+    }
+}
+
 
 .vMenu{
 
@@ -177,7 +214,8 @@ img{
                     margin-right: 10px;
                     margin-top: 4px;
                     float: left;
-
+                    @include transition(all 0.4s ease-in-out);
+                    box-shadow: 1px;
                     @include box-shadow(inset 0 0 5px #929292);
 
 

@@ -168,7 +168,7 @@ include($base_dir."includes/header.php");
                                     <div class="newPrice1 price1">$10,452.00</div>
                                     <br>
 
-                                    <a class="btn  btnStyle2">
+                                    <a class="btn  btnStyle2" href="<?php echo $base_dir."pages/cart/" ?>">
                                         <i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart
                                     </a>
                           </div><!--end of col-sm-6 details-->
