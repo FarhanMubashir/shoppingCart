@@ -8628,7 +8628,7 @@ sub-footer {
     #singleProductPage #gallerySlider .carousel-control {
       top: auto;
       left: -45px;
-      bottom: 48px;
+      bottom: 40px;
       width: 15%;
       opacity: .5;
       font-size: 20px;
@@ -8718,14 +8718,30 @@ sub-footer {
         display: block;
         margin-bottom: 40px; }
 
-@media (max-width: 786px) {
-  header #row1 .links {
-    font-size: 11px;
+@media (max-width: 768px) {
+  header #row3 .nav li a {
+    padding: 15px 21px; }
+
+  #singleProductPage #gallerySlider .carousel-control {
+    bottom: 15px; }
+  #singleProductPage #gallerySlider .glyphicon {
+    margin-top: 0; }
+    #singleProductPage #gallerySlider .glyphicon .glyphicon-chevron-right {
+      margin-right: 5px; }
+    #singleProductPage #gallerySlider .glyphicon .glyphicon-chevron-left {
+      margin-left: 5px; }
+
+  #footerIcons .paymentMethodIcons {
+    width: 220px; } }
+@media (max-width: 767px) {
+  header #row1 .link {
+    font-size: 10px;
     padding: 10px 5px;
     height: auto; }
   header #row1 .currencyDropdown {
     width: 100%; }
-    header #row1 .currencyDropdown a, header #row1 .currencyDropdown .dropdown-menu {
+    header #row1 .currencyDropdown a,
+    header #row1 .currencyDropdown .dropdown-menu {
       width: 100%; }
     header #row1 .currencyDropdown .dropdown-menu {
       border-top: 0px;
@@ -8738,19 +8754,6 @@ sub-footer {
     display: block;
     color: #709b1d;
     font-weight: bold; }
-
-  /* end of header */
-  #tabbedSlider .header {
-    padding-top: 6px; }
-    #tabbedSlider .header li a {
-      font-size: 10px; }
-
-  .content .carousel .carousel-control {
-    margin-top: -61px; }
-    .content .carousel .carousel-control .glyphicon-chevron-right {
-      right: -15px; }
-    .content .carousel .carousel-control .glyphicon-chevron-left {
-      left: -15px; }
 
   .slider .carousel-control .glyphicon-chevron-right {
     right: 36%; }
@@ -8765,11 +8768,23 @@ sub-footer {
       width: 15px;
       height: 12px; }
 
-  /*end of slider*/
-  #subscribe form input, #subscribe form button {
+  #homepage #subscribe form input, #homepage #subscribe form button {
     width: 100%; }
-  #subscribe form button {
-    margin-left: 0px; } }
-/*end of media */
+  #homepage #subscribe form button {
+    margin-left: 0px; }
+  #homepage #tabbedSlider .header li a {
+    font-size: 9px;
+    padding: 10px 7px; }
+  #homepage #tabbedSlider .content .carousel .carousel-control {
+    font-size: 16px;
+    top: -61px;
+    width: 20px;
+    height: 20px; }
+    #homepage #tabbedSlider .content .carousel .carousel-control.left {
+      left: -8px; }
+
+  #singleProductPage h1 {
+    margin-top: 20px;
+    font-size: 26px; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="block">
                 <i class="icon glyphicon glyphicon-send"></i>
                 <h4>First Shipping</h4>
@@ -11,7 +11,7 @@
                 </div>
             </div><!--end of col-sm-3-->
 
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="block">
                 <i class="icon glyphicon glyphicon-lock"></i>
                     <h4>Secure Store</h4> 
@@ -19,7 +19,7 @@
                 </div>
             </div><!--end of col-sm-3-->
 
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="block">
                 <i class="icon glyphicon glyphicon-time"></i>
                     <h4>Save Time</h4> 
@@ -27,7 +27,7 @@
                 </div>
             </div><!--end of col-sm-3-->
 
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="block">
                  <i class="icon glyphicon glyphicon-shopping-cart"></i>
                     <h4>Pay on Delivery</h4> 

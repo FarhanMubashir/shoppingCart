@@ -134,6 +134,7 @@ include($base_dir."includes/header.php");
                                     </div><!--end of socialIcons2-->
                           </div><!--end of col-sm-6-->
 
+
                           <div class="col-sm-6 details">
                               <h1>
                                 <?php echo $product->title; ?>
@@ -192,7 +193,7 @@ include($base_dir."includes/header.php");
 
                                   <header>
                                       <name>By Bin Burhan</name>
-                                      <div class="timeFrame">
+                                      <div class="timeframe">
                                           <div class="fa fa-clock-o"></div> 10:05pm &nbsp;
                                           <div class="fa fa-bell"></div> Sunday &nbsp;
                                           <div class="fa fa-calendar"></div> 26 December &nbsp;
@@ -206,12 +207,14 @@ include($base_dir."includes/header.php");
                                             <div class="star"></div>
                                       </div><!--end of rating2-->
 
+                                      </header>
+
                                        <content-container>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                                         </content-container>
 
 
-                                  </header>
+                                  
 
                                      </div><!--end of content-->
                                   </div><!--emd of tab panel-->
@@ -221,7 +224,7 @@ include($base_dir."includes/header.php");
 
 				</div><!--end of col-sm-9-->
 
-				<div class="col-sm-3">
+				<div class="col-sm-3 hidden-sm">
 					<div class="vMenu">
 						<div class="heading">Category</div><!--end of heading-->
 

@@ -222,7 +222,7 @@ img{
 
 }
 
-@import "header.scss";
+@import "header/header.scss";
 
 .slider
 {
@@ -424,7 +424,5 @@ img{
 
 
 
-
-
-@import "footer.scss";
+@import "footer/footer.scss";
 

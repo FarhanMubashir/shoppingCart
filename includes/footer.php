@@ -9,7 +9,7 @@ global $base_dir;
   	<div class="row">
 
 
-  		<div class="col-sm-3">
+  		<div class="col-md-3 col-sm-6">
   			<div class="footerHeading">
   				Information
   			</div>
@@ -23,7 +23,7 @@ global $base_dir;
 
 
 
-  		<div class="col-sm-3">
+  		<div class="col-md-3 col-sm-6">
                 <div class="footerHeading">
                     Why Buy From Us
                 </div>
@@ -37,7 +37,7 @@ global $base_dir;
             </div>
 
 
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="footerHeading">
                     My Account
                 </div>
@@ -51,7 +51,7 @@ global $base_dir;
             </div>
 
 
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="footerHeading">
                     Contact
                 </div>
@@ -76,12 +76,12 @@ global $base_dir;
 <div id="footerIcons">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-md-6 text-center">
 				<a href="#" class="btn btn-primary">We Accept</a>
 				<img class="paymentMethodIcons" src="<?php echo $base_dir; ?>assets/images/paymentMethodsIcons.png" class="maxWidth100perc" alt="Card's images">
 			</div><!--end of col-sm-6-->
 
-			<div class="col-sm-6">
+			<div class="col-md-6 text-center">
 
 			<a href="#" class="btn btn-primary">Follow Us</a>
 			<span class="socialIcon">

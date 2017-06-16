@@ -1,15 +1,10 @@
 @import "theme.scss";
-@import "shared.scss";
-@import "home.scss";
+@import "shared/shared.scss";
+@import "home/home.scss";
 @import "product/products.scss";
-@import "product/singleProduct.scss";
+@import "product/single/singleProduct.scss";
 
 @import "media-queries.scss";
-
-
-
-
-
 
 
 
