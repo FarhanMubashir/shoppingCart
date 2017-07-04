@@ -1,5 +1,5 @@
 <?php
-
+ require_once($base_dir."pages/products/loop-item.php");
 function loadProductsSlider($sliderId, $products){
 
 
@@ -21,7 +21,7 @@ global $base_dir;
             $product = (object) $product;
           ?>
           <div class="col-sm-4">
-            <?php include($base_dir."pages/products/loop-item.php"); ?>
+           <?php generateProductTile($product); ?>
           </div>
 
 

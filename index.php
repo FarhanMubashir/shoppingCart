@@ -64,55 +64,10 @@ include($base_dir."pages/products/products-slider.php");
                 </div><!--end of col-sm-12-->
         </div><!--end of row-->
     </div><!--end of header-->
-         <?php
-          $products = array(
-            array(
-              'title'=> 'SmartPhone',
-              'price' => 393884,
-              'rating' => 3,
-              'img' => 'product1.jpg',
-              'discount' => 50
+         <?php 
+                require_once($base_dir."pages/products/productsDb.php");
 
-              ),
-
-              array(
-              'title'=> 'SmartPhone',
-              'price' => 69584,
-              'rating' => 3,
-              'img' => 'product1.jpg',
-              'discount' => 40
-
-              ),
-
-              array(
-              'title'=> 'SmartPhone',
-              'price' => 35684,
-              'rating' => 3,
-              'img' => 'product1.jpg',
-              'discount' => 0
-
-              ),
-
-              array(
-              'title'=> 'SmartPhone',
-              'price' => 694484,
-              'rating' => 3,
-              'img' => 'product1.jpg',
-              'discount' => 70
-
-              ),
-
-              array(
-              'title'=> 'SmartPhone',
-              'price' => 883344,
-              'rating' => 3,
-              'img' => 'product1.jpg',
-              'discount' => 90
-
-              )
-
-            );
-          ?>
+            ?>
     <div class="content">
       <div class="tab-content">
           <div id="featuredTab" class="tab-pane fade in active">

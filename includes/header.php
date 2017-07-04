@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home page | Shopping</title>
 	
-	<link rel="stylesheet" type="text/css" href="<?php echo $base_dir; ?>assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $base_dir; ?>assets/css/styles.css?version=<?php echo rand(); ?>">
 </head>
 <body>
 

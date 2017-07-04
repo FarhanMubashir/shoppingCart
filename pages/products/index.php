@@ -1,100 +1,9 @@
 <?php
 $base_dir = "../../";
 
+require_once($base_dir."pages/products/loop-item.php");
 include($base_dir."includes/header.php");
-
- $products = array(
-                                 array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 2,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>20
-                                ),
-
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 3,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>70
-                                ),
-
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 4,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>15
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 5,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>5
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 2,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>20
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 3,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>30
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 5,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>0
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 2,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>20
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 4,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>40
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 1,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>60
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 3,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>55
-                                ),
-                                array(
-                                    'title'=>  "1 Smart Phone V1",
-                                    'price' =>  102323, 
-                                    'rating' => 0,
-                                    'img'    => 'product1.jpg', 
-                                    'discount'=>90
-                                ),
-                                
-                                
-
-                                
-                            );
+include($base_dir."pages/products/productsDb.php");
 
 ?>
 
@@ -123,7 +32,7 @@ include($base_dir."includes/header.php");
                               ?>
 
                             <div class="col-sm-4">
-                            <?php include($base_dir."/pages/products/loop-item.php"); ?>
+                             <?php generateProductTile($product); ?>
                             </div>
 
                             <?php endforeach; ?>

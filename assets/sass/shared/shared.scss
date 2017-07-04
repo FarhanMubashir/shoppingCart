@@ -376,6 +376,7 @@ img{
             background-color: $light_grey_color;
             padding:2px;
             text-align: center;
+            margin-bottom: 30px;
             
             .img{
                 background-position: center;
@@ -423,11 +424,15 @@ img{
                 
                 
             }
+            .details{
+                  height: 83px;
+              }   
 
             .price,
          .newPrice {
                     font-weight: bold;
                     font-size: 20px;
+                    margin-bottom: 16px;
                     color: #696969;
          &.discounted {
                 text-decoration: line-through;

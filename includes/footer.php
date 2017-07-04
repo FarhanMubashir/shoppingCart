@@ -135,6 +135,6 @@ global $base_dir;
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo $base_dir; ?>assets/frameworks/bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="<?php echo $base_dir; ?>assets/js/index.js"></script>
+<script src="<?php echo $base_dir; ?>assets/js/common.js"></script>
 </body>
 </html>

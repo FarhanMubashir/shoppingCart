@@ -1,4 +1,11 @@
+<?php
+function generateProductTile($product){
+global $base_dir;
+
+?>
 <div class="product">
+
+
 	<div class="img" style="background-image: url(<?php 
 
 	echo $base_dir; ?>assets/uploads/<?php
@@ -10,10 +17,13 @@
 	<div class="discountBadge">
 		<span class="percent"><?php echo $product->discount; ?>%</span>
 	</div>
+	
      <?php endif; ?>
-		
+		  
 		<div class="title"><a href="singleProduct.php"><?php echo $product->title; ?></a></div><!--end of title-->
 	</div><!--end of img-->
+
+	<div class="details">
 	<div class="price <?php echo $product->discount>0?'discounted':'' ?>">
 		$<?php echo number_format($product->price); ?>
 	</div><!--end of price-->
@@ -50,9 +60,16 @@
 		<i class="glyphicon glyphicon-shopping-cart"></i>
 		Add To Cart
 	</a>
-
+</div><!--end of detail-->
 
 
 
 
 </div><!--end of product -->
+
+<?php
+
+
+} 
+
+?>

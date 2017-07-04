@@ -8451,7 +8451,8 @@ header {
 .product {
   background-color: #efefef;
   padding: 2px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
   .product .img {
     background-position: center;
     width: 100%;
@@ -8485,6 +8486,8 @@ header {
       border: 1px solid #efefef;
       color: #709b1d;
       margin: auto; }
+  .product .details {
+    height: 83px; }
   .product .price,
   .product .newPrice {
     font-weight: bold;
