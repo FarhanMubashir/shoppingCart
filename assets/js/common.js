@@ -4,8 +4,9 @@ function number_format(number)
     var numberString  = number.toString();
     console.log(numberString[2]);
     var newNumberStr = '';
-    for(var index = numberString.length-1; index>=0; index--){
-        var number = numberString[index];
+    var lastIndex = numberString.length-1;
+    for(var index = lastIndex; index>=0; index--){
+        var number = numberString[lastIndex-index];
         newNumberStr+=number;
 
         if((index)%3==0 && index!==0)
